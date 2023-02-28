@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .main{
+        width: 1200px;
+        height: 400px;
+        background-color: rgb(8, 234, 237);
+        margin: auto;
+        display: flex;
+        
+    }
+    .wrap {
+        width: 1000px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        border: solid 3px rgb(255, 255, 255);
+        padding: 10px;
+        margin: auto;
+        
+        align-items: center;
+    }
+
+    .box {
+        
+        width: 200px;
+        height: 150px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        align-items: center;
+        border:solid 2px whitesmoke ;
+        
+    }
+    .box:nth-child(-n+5){
+        border-top: 0px;
+        border-right: 0px;
+    }
+
+    .box:nth-child(n-5){
+        border-bottom: 0px;
+        border-right: 0px;
+    }
+    .box:nth-child(5n+1){
+        border-left: 0px;
+    }
+    .box:nth-child(5n){
+        border-right: 0px;
+    }
+
+    .box .img {
+        width: 200px;
+    }
+    .box .img img{
+        width: auto;
+    }
+    .box .text {
+        width: 200px;
+    }
+</style>
+
+<body>
+    <div class="main">
+    <div class="wrap">
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p></p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+        <div class="box">
+            <div class="text"><p>日常婦幼</p>天天搶<p>mo幣好禮</div>
+            <div class="img"><img src="https://fakeimg.pl/100x100/"></div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
